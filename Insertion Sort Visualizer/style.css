@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    background-color:  rgb(255, 233, 211);;
+}
+
+.container{
+    height: 96vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: purple;
+    color: white;
+    font-size: 20px;
+    font-weight:bold;
+    border-radius: 10px;
+    border: none;
+    font-style: italic;
+    word-spacing:5px;
+}
+
+.main{
+    flex: 1;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+
+.button-group{
+    display: flex;
+    justify-content: center;
+}
+
+.bars{
+    width: 35px;
+    background-color:  rgb(0, 183, 255);
+    display: flex;
+    flex-direction: column;
+    transition: 0.2s all ease; 
+    margin-bottom: 6em;
+    margin-right: 2px;
+    margin-left: 2px;
+    align-self: flex-end;
+    text-align: center;
+}
+
+.barLabel{
+    font-weight: bold;
+}
+
+.button{
+    padding: 10px;
+    font-weight: bold;
+    background-color: purple;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+    font-style: italic;
+}
+
+.button:hover{
+    background-color: black;
+}
+
+.button:active{
+    background-color: white;
+    color: black;
+}
+
+.nav{
+    margin: 10px;
+    font-weight:bold;
+    font-size: 17px;
+    font-style: italic;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav select{
+    background-color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#speed{
+    padding: 3px;
+}
+
+.error{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+#selected_element{
+    color:dodgerblue;
+    margin: 2px auto;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.reset{
+    background-color: tomato;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}

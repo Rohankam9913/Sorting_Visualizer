@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selection Sort Visusalizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">Selection Sort Visusalizer</header>
+        <nav class="nav">
+            <label>Speed of animation</label>
+            <select id="speed">
+                <option value="slow">Slow</option>
+                <option value="medium">Medium</option>
+                <option value="fast">Fast</option>
+            </select>
+        </nav>
+
+        <main class="main"></main>
+
+        <div class="btn-group">
+            <button class="btn" id="Button1" onclick="generateNewArray()">Generate array</button>
+            <button class="btn" id="Button2" onclick="selectionSort()">Start Visualizer</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

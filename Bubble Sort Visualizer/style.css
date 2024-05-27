@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    height: 96vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    font-style: italic;
+}
+
+.nav{
+    margin: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav label{
+    margin-right: 10px;
+}
+
+.nav select{
+    font-weight: bold;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.main{
+    flex: 1;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+
+.bars{
+    width: 35px;
+    background-color: rgb(65, 108, 122);
+    text-align: center;
+    margin: 0px 2px;
+    align-self: flex-end;
+}
+
+.barLabel{
+    color: white;
+    font-weight: bold;
+}
+
+.button-group{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    margin: 0px 10px;
+    font-weight: bold;
+    background-color: purple;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-style: italic;
+}
+
+.button:hover{
+    background-color: black;
+}
+
+.button:active{
+    color: black;
+    background-color: white;
+}
+
+.error{
+    font-weight: bold;
+    color: red;
+    font-style: italic;
+}
+
+.reset{
+    background-color: tomato;
+    color: white;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.reset:hover{
+    background-color: rgb(136, 53, 38);
+    color: white;
+}
